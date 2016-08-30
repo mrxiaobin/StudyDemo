@@ -16,6 +16,6 @@
 @property (nonatomic, assign)NSInteger age;
 
 - (id)objectForKeyedSubscript:(id)key;
-- (void)setObject:(id)obj forKeyedSubscript:(id <NSCopying>)key;
+- (void)setObject:(id)obj forKeyedSubscript:(NSString *)key;
 
 @end
